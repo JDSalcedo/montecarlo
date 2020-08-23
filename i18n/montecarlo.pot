@@ -1,0 +1,776 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* montecarlo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-04 06:59+0000\n"
+"PO-Revision-Date: 2018-05-04 06:59+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "<span class=\"o_stat_text\">Simulation</span>\n"
+"		                            <span class=\"o_stat_text\">Statistics</span>"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,name:montecarlo.action_montecarlo_activity
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_activities_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_kanban_view
+msgid "Activities"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_count_activities
+msgid "Activities #"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+msgid "Activity Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_activity_probability_success
+msgid "Activity's percent of success"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+msgid "Activity:"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_simulation_wizard_view
+msgid "Cancel"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_category
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_kanban
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Category"
+msgstr ""
+
+#. module: montecarlo
+#: model:res.groups,name:montecarlo.group_montecarlo_chief_manager
+msgid "Chief Manager"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+msgid "Click here to quickly create new activities."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,help:montecarlo.action_montecarlo_activity
+msgid "Click to create a Activity."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,help:montecarlo.action_montecarlo_project
+msgid "Click to create a Project."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,help:montecarlo.action_montecarlo_sprint
+msgid "Click to create a Sprint."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_client_tolerance
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_client_tolerance
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_kanban_view
+msgid "Client Tolerance(days)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_sprint_client_tolerance
+msgid "Client tolerance, how many days                                           the client can wait for sprint deliverance."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_create_acts
+msgid "Create Activities"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_create_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_create_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_criticalpath
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+msgid "Critical Path"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_criticalpath_duration
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_kanban_view
+msgid "Critical Path Duration(days)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_simulation_date
+msgid "Date"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_description
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "Description"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_display_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_duration
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_duration
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_criticalpath_duration
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_kanban_view
+msgid "Duration(days)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_earliest_finish
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_earliest_finish
+msgid "Earliest Finish"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_earliest_start
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_earliest_start
+msgid "Earliest Start"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_execution_time
+msgid "Execution Time(seg)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_final_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_final_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_from_final_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_to_final_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_final_day
+msgid "Finish Date"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_sprint_sequence
+msgid "Gives the sequence of this sprint when displaying the project."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Group By"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_id
+msgid "ID"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Incoming Transitions"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_iterations
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_iterations
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_kanban
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Iterations"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_large_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_large_name
+msgid "Large Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard___last_update
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_write_uid
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_write_date
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_lastest_finish
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_lastest_finish
+msgid "Lastest Finish"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_lastest_start
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_lastest_start
+msgid "Lastest Start"
+msgstr ""
+
+#. module: montecarlo
+#: model:res.groups,name:montecarlo.group_montecarlo_manager
+msgid "Manager"
+msgstr ""
+
+#. module: montecarlo
+#: selection:montecarlo.project.result,category:0
+msgid "Moderately Viable"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.menu,name:montecarlo.menu_montecarlo
+msgid "Monte Carlo"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.module.category,name:montecarlo.module_category_montecarlo
+msgid "Monte Carlo Simulation"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_name
+msgid "Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_to_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+msgid "Next Activities"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_activity_to_id
+msgid "Next Activity"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_to_id
+msgid "Next Process"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_to_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Next Processes"
+msgstr ""
+
+#. module: montecarlo
+#: selection:montecarlo.project.result,category:0
+msgid "No Viable"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_sprint_create_acts
+msgid "Number of activities to create automatically."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_simulation_wizard_iterations
+msgid "Number of iterations for Monte Carlo Simulation"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Outgoing Transitions"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_criticalpath
+msgid "Path"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_place
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_kanban
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Place"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_from_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_form_view
+msgid "Previous Activities"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_transition_activity_from_id
+msgid "Previous Activity"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_from_id
+msgid "Previous Process"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_from_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Previous Processes"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_probability_success
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_probability_success
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_from_probability
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_to_probability
+msgid "Probability Success(%)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_processes_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_tree_view
+msgid "Process"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_count_processes
+msgid "Process #"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Process Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_process_probability_success
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_process_transition_process_from_probability
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_process_transition_process_to_probability
+msgid "Process' percent of success"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_process_form_view
+msgid "Process:"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_processes_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_kanban_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_simulation_wizard_view
+msgid "Processes"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_project_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_project_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_project_id
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_project_id
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_pivot_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_kanban_view
+msgid "Project"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_diagram_view
+msgid "Project Editor"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "Project Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "Project:"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,name:montecarlo.action_montecarlo_project
+#: model:ir.actions.act_window,name:montecarlo.action_montecarlo_project_result
+#: model:ir.ui.menu,name:montecarlo.menu_action_montecarlo_project
+#: model:ir.ui.menu,name:montecarlo.menu_montecarlo_projects
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_graph
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_pivot
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_tree
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_tree_view
+msgid "Projects"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_result_date
+msgid "Result Date"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Result Date(days)"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_result_time
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Result Time"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.menu,name:montecarlo.menu_montecarlo_results
+msgid "Results"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "Run Critical Path Method for the current Project"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+msgid "Run Critical Path Method for the current Sprint."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "Search Projects"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_sprint_sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_name
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_name
+msgid "Short Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_simulation_wizard_view
+msgid "Simulate"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,name:montecarlo.action_montecarlo_simulation_wizard
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_simulation_wizard_view
+msgid "Simulation"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_slack
+msgid "Slack"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_sprint_id
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_kanban_view
+msgid "Sprint"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+msgid "Sprint Name"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_form_view
+msgid "Sprint:"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.actions.act_window,name:montecarlo.action_montecarlo_sprint
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_sprints_ids
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_simulation_wizard_sprints_ids
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_activity_tree_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_tree_view
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_sprint_tree_view_b
+msgid "Sprints"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_count_sprints
+msgid "Sprints #"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_start
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_start
+msgid "Start"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_activity_start_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_start_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_from_start_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_process_transition_process_to_start_day
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_start_day
+msgid "Start Date"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_form_view
+msgid "Start MC Simulation"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_success_cases
+msgid "Success cases"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_sprint.py:139
+#, python-format
+msgid "The Critical Path Method cannot be started. It does not have any starting activity. Modify Sprint: %s activities to mark one as the starting point."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_project.py:282
+#, python-format
+msgid "The Critical Path Method cannot be started. It does not have any starting process. Modify Project: %s processes to mark one as the starting point."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_sprint.py:130
+#, python-format
+msgid "The Critical Path Method cannot be started. There are no activities in the Sprint: %s"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_project.py:269
+#, python-format
+msgid "The Critical Path Method cannot be started. There are no processes in the Project: %s"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_project.py:273
+#, python-format
+msgid "The Critical Path Method cannot be started. There are processes without Dates."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_activity.py:75
+#: code:addons/montecarlo/models/montecarlo_project.py:60
+#, python-format
+msgid "The Final Date should be equal to or greater than Start Date."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_process.py:71
+#: code:addons/montecarlo/models/montecarlo_process.py:93
+#: code:addons/montecarlo/models/montecarlo_process.py:122
+#, python-format
+msgid "The Final Date should be equal to or less than Project's Final Date."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/wizard/montecarlo_simulation.py:101
+#, python-format
+msgid "The Monte Carlo simulation cannot be started. There are no Processes."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_process.py:69
+#: code:addons/montecarlo/models/montecarlo_process.py:91
+#, python-format
+msgid "The Start Date should be equal to or greater than Project's Start Date."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_process.py:98
+#: code:addons/montecarlo/models/montecarlo_process.py:111
+#, python-format
+msgid "The Start Date should be equal to or greater than the Final Date of '%s' process"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_activity.py:59
+#: code:addons/montecarlo/models/montecarlo_process.py:65
+#: code:addons/montecarlo/models/montecarlo_process.py:88
+#: code:addons/montecarlo/models/montecarlo_process.py:106
+#: code:addons/montecarlo/models/montecarlo_process.py:119
+#: code:addons/montecarlo/models/montecarlo_process.py:126
+#: code:addons/montecarlo/models/montecarlo_project.py:43
+#, python-format
+msgid "The Start Date should be equal to or less than Final Date."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_search
+msgid "This Day"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_process_start
+msgid "This Process is the root of the Project."
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,help:montecarlo.field_montecarlo_activity_start
+msgid "This activity is the root of the Sprint."
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_sprint.py:93
+#, python-format
+msgid "This number must be positive"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_project_result_kanban
+msgid "Viability"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model.fields,field_description:montecarlo.field_montecarlo_project_result_viability
+msgid "Viability %"
+msgstr ""
+
+#. module: montecarlo
+#: selection:montecarlo.project.result,category:0
+msgid "Viable"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_activity.py:74
+#: code:addons/montecarlo/models/montecarlo_project.py:59
+#, python-format
+msgid "Warning for Final Date"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_activity.py:58
+#: code:addons/montecarlo/models/montecarlo_project.py:42
+#, python-format
+msgid "Warning for Start Date"
+msgstr ""
+
+#. module: montecarlo
+#: code:addons/montecarlo/models/montecarlo_process.py:101
+#: code:addons/montecarlo/models/montecarlo_process.py:114
+#, python-format
+msgid "You should complete the dates for the previous process '%s'"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_activity
+msgid "montecarlo.activity"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_activity_transition
+msgid "montecarlo.activity.transition"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_process
+msgid "montecarlo.process"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_process_transition
+msgid "montecarlo.process.transition"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_project
+msgid "montecarlo.project"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_project_result
+msgid "montecarlo.project.result"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_simulation_wizard
+msgid "montecarlo.simulation.wizard"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.model,name:montecarlo.model_montecarlo_sprint
+msgid "montecarlo.sprint"
+msgstr ""
+
+#. module: montecarlo
+#: model:ir.ui.view,arch_db:montecarlo.montecarlo_simulation_wizard_view
+msgid "or"
+msgstr ""
+
